@@ -76,9 +76,10 @@ class Canary_Alerts_Helper_Data extends Mage_Core_Helper_Abstract{
 		}
 		$data['taxes'] = $tax;
 		$data['total'] = $order->getGrandTotal();
-		$data['data_created'] = date(DATE_ATOM, strtotime($order->getCreatedAt()));
+		$data['date_created'] = date(DATE_ATOM, strtotime($order->getCreatedAt()));
 		$data['payment_method'] = $order->getPayment()->getMethodInstance()->getTitle();
 		$data['shipping_method'] = $order->getShippingDescription();
+		$data['shipping'] = $order->getShippingAmount();
 		$data['reference_id']  = $order->getIncrementId();
 		$orderLinesInfo = array();
 		foreach ($order->getItemsCollection() as $item){
