@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package>
+    <name>Canary_Alerts</name>
+    <version>1.0.0</version>
+    <stability>stable</stability>
+    <license>GNU General Public License</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Canary monitors your stores to make sure you are still getting orders.</summary>
+    <description>Canary uses statistical modeling to figure out how many orders you should be receiving at any time of the day.    If you too few or too many orders you'll be notified.   Canary also checks your server every minute to make sure there are no technical errors and that your customers can reach your site as well.</description>
+    <notes>first release</notes>
+    <authors><author><name>Luke Davis</name><user>dangdevelopers</user><email>luke@dangdevelopers.com</email></author></authors>
+    <date>2014-11-06</date>
+    <time>16:21:03</time>
+    <contents><target name="magecommunity"><dir name="Canary"><dir name="Alerts"><dir name="Block"><dir name="Adminhtml"><dir name="Form"><dir name="Emailpassword"><file name="Form.php" hash="09d397bb6da54c300875a229544e768f"/></dir><file name="Emailpassword.php" hash="be66f0e56a451c567b6031cb88168b2a"/><dir name="Store"><file name="Form.php" hash="518f9b447d5bcc3713a57ba2c94e6266"/></dir><file name="Store.php" hash="965912cd619801dcfd1d5a55f60f1663"/></dir></dir></dir><dir name="Helper"><file name="Data.php" hash="62b91fb255eab1206ce1a6f32da114f5"/></dir><dir name="Model"><file name="Observer.php" hash="82af9ff839bdd4a2bcb17bc9e03f1c8b"/></dir><dir name="controllers"><file name="ConfigController.php" hash="4d4e6daba8e9ba49733b9932bfb4dae9"/></dir><dir name="etc"><file name="adminhtml.xml" hash="9088e3423aa512718da74d8e08f245a8"/><file name="config.xml" hash="c0bf32323ec2092cac33ad96b4ba1ee3"/></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Canary_Alerts.xml" hash="c0678779865b23ac8282177b0b53f848"/></dir></target><target name="magelocale"><dir/></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.2.13</min><max>6.0.0</max></php></required></dependencies>
+</package>
