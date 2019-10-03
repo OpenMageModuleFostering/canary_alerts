@@ -1,16 +1,19 @@
 {
-    "name": "OpenMageModuleFostering/Canary_Alerts",
+    "name": "OpenMageModuleFostering\/Canary_Alerts",
     "type": "magento-module",
     "license": "GNU-General-Public-License",
     "homepage": "",
     "description": "Canary monitors your stores to make sure you are still getting orders.",
     "authors": [
-    {
-        "name": "Luke Davis",
-        "email": "luke@dangdevelopers.com"
-    }
-],
+        {
+            "name": "Luke Davis",
+            "email": "luke@dangdevelopers.com"
+        }
+    ],
     "suggest": {
-        "magento-hackathon/magento-composer-installer": "*"
-    }
+        "magento-hackathon\/magento-composer-installer": "*"
+    },
+    "keywords": [
+        "openmage-module"
+    ]
 }
